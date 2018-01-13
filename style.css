@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
+body{
+	background:#E6F3D9;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
 li{
 	float:left;
 }
-.container-fluid{
-	background:#E6F3D9;
+.body-area{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1250px;
 }
 .header{}
 .col-lg-3 {
@@ -114,7 +120,7 @@ li{
     margin-right: 2px;
     padding-top: 5px;
     text-align: center;
-    width: 141px;
+    width: 135px;
 }
 .form-control{
     display: block;
@@ -187,10 +193,6 @@ height: 38px;
 	padding: 0 15px 0 18px;
 }
 .textContent ul{}
-.textContent ul li{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+.textContent ul li{
+    float: none;
+}
